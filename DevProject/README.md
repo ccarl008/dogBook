@@ -1,4 +1,4 @@
-# 🐶 Doggify - A Social Media for Dogs 
+# 🐶 DogBook- A Social Media for Dogs 
 
 A fun, dog-themed webpage where users can:
 - Fetch random dog pictures 🖼️
