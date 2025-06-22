@@ -1,0 +1,21 @@
+.banner{
+    background-color:seagreen;
+    color: beige;
+    margin-top: 75;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#small-golden{
+    height: 100px;
+    width: 100px;
+}
+
+#DogBook{
+    color:slateblue;
+    font-size: 100px;
+}
+
+.bold{
+    font-weight: 900;
+}
