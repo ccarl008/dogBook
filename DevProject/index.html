@@ -11,8 +11,8 @@
          <nav class="navbar">
             <ul>
                 <li><a class="blue" href="">Doggify</a></li>
-                <li><a href="">Doggy Barking Only</a></li>
                 <li><a href="">DogBook</a></li>
+                <li><a href="">Show Random Dog</a></li>
             </ul>
          </nav>
         <!-- Banner Section -->
@@ -20,16 +20,16 @@
             <h1>Doggy Barking Only</h1>
             <img id="small-golden" src="./resources/images/goldenRetriever.png" alt="">
             <p>No cats allowed!!</p>
-            <button>Subscribe to me or I'll lick you</button>
+            <button id="subscribe">Subscribe to me or I'll lick you</button>
         </div>
 
-        <!-- Dog Section -->
+        <!-- DogBook Section -->
          <div class="dogSection">
             <span class = "bold" id="DogBook">DogBook</span>
             <p>Social media dedicated to dogs... and only dogs...Woof</p>
-            <form action="">
-                <input type="text">
-                <input type="submit" value="Submit">
+            <form id="dogPostForm">
+                <input type="text" id="dogPostInput" placeholder="Woof something...">
+                <input type="submit" value="Bark!">
             </form>
             <div id="greets">
                 <ul>
@@ -45,5 +45,15 @@
                 </ul>
             </div>
          </div>
+
+        <!-- Random Dog Button -->
+        <div class = "randomDogContainer">
+            <button id="randomDogBtn">Show Me a Random Dog!</button>
+            <div id="randomDogImage"></div>
+        </div>
+
+        <script src="./script.js">
+        </script> 
+        
     </body>
 </html>
